@@ -14,8 +14,6 @@ import javax.print.attribute.standard.Media;
 import javax.validation.Valid;
 import java.util.List;
 
-import static org.postgresql.core.Oid.JSON;
-
 @RestController
 @RequestMapping("/api/subjects")
 public class SubjectRest {
